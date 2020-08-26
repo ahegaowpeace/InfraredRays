@@ -107,5 +107,8 @@ $ bto_advanced_USBIR_cmd -t SONY       -C 08F6817E
 $ bto_advanced_USBIR_cmd -t MITSUBISHI -C 08F6817E
 $ bto_advanced_USBIR_cmd --Plarail_Speed_UpAF
 
-
-移植作業者: disklessfun@gmail.com
+## daikin.pyについて
+```
+python daikin.py -p on -m cold -t 28
+```
+↑を実行するとdaikin.txtが作成されるので、それを`bto`に読み込ませる
